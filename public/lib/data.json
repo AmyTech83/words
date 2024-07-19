@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "titulo": "el universo",
+        "parrafo": 
+        "En las vastas extensiones del cosmos, entre estrellas que parpadean como faros en la oscuridad infinita, se encuentra el viajero del universo. Su nave, una maravilla de ingeniería cósmica, surca los confines del espacio-tiempo con elegancia y determinación. Desde los remotos planetas helados de los confines exteriores hasta las brillantes ciudades flotantes en las nubes de nebulosas lejanas, este explorador sin igual ha visto y experimentado maravillas más allá de la imaginación. Cada salto de hiperespacio es un ballet coreografiado de luces y sombras, un baile entre dimensiones donde las leyes físicas se retuercen como barro maleable en sus manos expertas. En cada sistema estelar, descubre nuevas formas de vida, algunas tan etéreas como pensamientos fugaces y otras tan monumentales como montañas vivientes que se mueven con la gracia de los planetas que orbitan.",
+        "autor": "Anonimo"
+    },
+    {
+        "id": 2,
+        "titulo": "el pueblo",
+        "parrafo": "En lo profundo de un valle entre montañas ancianas y campos ondulantes se encuentra el pueblo de Tranquilidad. Sus casas de madera, con techos de paja que se mecen al viento, forman un mosaico acogedor contra el telón de fondo de los picos cubiertos de nieve que abrazan el horizonte. Aquí, el tiempo transcurre con la cadencia tranquila de las estaciones que marcan la vida de sus habitantes. En las calles empedradas, donde el murmullo de las fuentes antiguas se mezcla con el cantar de los pájaros al amanecer, los lugareños tejen historias de generaciones pasadas. Cuentan de tiempos en los que el pueblo era solo un puñado de chozas dispersas, cuando los ancestros labraron la tierra con sus propias manos y sembraron las semillas que florecen en campos dorados cada verano.",
+        "autor": "Jhon Olarte"
+    },
+    {
+        "id": 3,
+        "titulo": "el amor",
+        "parrafo": "En el corazón de un pequeño pueblo, donde los caminos se entrelazan como los destinos de dos almas enamoradas, nació una historia de amor eterno. María y Juan se conocieron en la plaza central, bajo el cálido resplandor del sol de primavera que teñía de oro las calles empedradas y las fachadas de las casas antiguas. Desde el primer encuentro, sus miradas se encontraron como estrellas fugaces en la noche, brillantes y efímeras pero dejando una huella imborrable en sus corazones. La risa de María era como el canto de los ruiseñores que llenaba el aire con su melodía encantadora, mientras que la ternura de Juan era como un abrazo cálido en las noches frías de invierno.",
+        "autor": "Jerson Misas"
+    }
+]

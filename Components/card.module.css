@@ -1,0 +1,37 @@
+.containerPublicaciones{
+    grid-column: 4/10;
+    display: grid;
+}
+
+.card{
+    border:3px solid #eee;
+    padding:25px 25px 10px 25px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    margin:45px 0 45px 0;
+}
+.card div{
+    margin:0px 0 20px 0;
+}
+.fecha{
+    color:#a2a2a2;
+    font-weight: 300;
+}
+.headerCard{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.bodyCard p{
+    font-size:22px;
+}
+.footerCard{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.linea{
+    border:1px solid #D7DBDD;
+}

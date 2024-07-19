@@ -1,0 +1,39 @@
+
+.button{
+    background: none;
+    border: none;
+    color:rgb(38, 38, 38);
+}
+.button:hover{
+    cursor: pointer;
+    color:#ff3b1f;
+    transition: color .5s;
+}
+.heartRed{
+    color:#ff3b1f;
+}
+@keyframes example{
+    0%{
+        transform: scale(1.5);
+    }
+}
+.buttonRed{
+    background: none;
+    border: none;
+    display: none;;
+}
+
+.corazonrojo{
+    animation-name: example;
+    animation-duration: .4s;
+    color:#ff3b1f;
+}
+.buttonRed:hover{
+    cursor:pointer;
+}
+.sectionButton{
+    margin: 30px 0 0 0;
+}
+.buttonContainer > p{
+    font-weight:400;
+}

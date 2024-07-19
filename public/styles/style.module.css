@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.logo{
+    grid-column:4/10;
+    text-align: center;
+}
+.publicacion{
+    grid-column:4/10;
+}
