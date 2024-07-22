@@ -4,19 +4,18 @@
 }
 
 .card{
-    border:3px solid #eee;
+    border:1px solid #eee;
+    box-shadow: 0 0 5px #ccc;
     padding:25px 25px 10px 25px;
     border-radius:10px;
-    display: flex;
-    flex-direction: column;
-    margin:45px 0 45px 0;
-}
-.card div{
-    margin:0px 0 20px 0;
+    display: grid;
+    box-sizing: border-box;
+    grid-gap:25px;
 }
 .fecha{
     color:#a2a2a2;
     font-weight: 300;
+    font-size: 21px;
 }
 .headerCard{
     display: flex;
@@ -24,14 +23,33 @@
     
 }
 .bodyCard p{
-    font-size:18px;
+    font-size:22px;
 }
 .footerCard{
     display: flex;
     justify-content:space-between;
     align-items: center;
 }
+.footerCard p{
+    font-size: 18px;
+}
 
 .linea{
     border:1px solid #D7DBDD;
+    margin:46px 0 46px 0;
+}
+@media (max-width: 860px){
+    .containerPublicaciones{
+        grid-column: 2/12;
+    }
+    
+.fecha{
+    font-size: 17px;
+}
+.bodyCard p{
+    font-size:18px;
+}
+.footerCard p{
+    font-size: 15px;
+}
 }

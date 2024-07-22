@@ -8,7 +8,6 @@ export default function Card(){
     const currentDate = new Date().toISOString();
     const datos = JSON.stringify(data, null, 2);
     const dataCards = JSON.parse(datos);
- 
     return (
         <>
             {dataCards.map((item) => (
@@ -21,14 +20,16 @@ export default function Card(){
                         <div className={styles.bodyCard}>
                             <h2>{item.titulo}</h2><br />
                             <p>{item.parrafo}</p>
-                        </div><br></br>
+                        </div>
                         <div className={styles.footerCard}>
                             {/* Pasar propiedades relevantes al Button */}
                             <Button itemId={item.id}></Button>
                             <p>- {item.autor}</p>
                         </div>
                     </div>
-                    <hr className={styles.linea} />
+                    <div>
+                        <hr className={styles.linea} />
+                    </div>
                 </div>
             ))}
         </>

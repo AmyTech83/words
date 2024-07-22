@@ -13,7 +13,6 @@ export default function Page(){
             </head>
             <body>
                 <div className={style.container}>
-
                     <div className={style.logo}>
                         <Image
                             src="/Images/Words.svg"
