@@ -15,7 +15,7 @@
 .fecha{
     color:#a2a2a2;
     font-weight: 300;
-    font-size: 21px;
+    font-size: 15px;
 }
 .headerCard{
     display: flex;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 .footerCard p{
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .linea{
