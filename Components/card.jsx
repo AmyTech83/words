@@ -10,13 +10,6 @@ export default function Card(){
     const datos = JSON.stringify(data, null, 2);
     const dataCards = JSON.parse(datos);
     
-    function scroll(event){
-        if (event.key === 'ArrowUp') {
-            window.scrollBy(0, -522); // Scroll hacia arriba
-        } else if (event.key === 'ArrowDown') {
-            window.scrollBy(0, 522); // Scroll hacia abajo
-        }
-    } 
     return (
         <>
             {dataCards.map((item) => (
