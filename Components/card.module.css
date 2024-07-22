@@ -22,9 +22,6 @@
     justify-content: flex-end;
     
 }
-.bodyCard p{
-    font-size:22px;
-}
 .footerCard{
     display: flex;
     justify-content:space-between;
@@ -36,7 +33,7 @@
 
 .linea{
     border:1px solid #D7DBDD;
-    margin:46px 0 46px 0;
+    margin:46px 50px 46px 50px;
 }
 @media (max-width: 860px){
     .containerPublicaciones{
