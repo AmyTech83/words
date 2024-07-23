@@ -29,8 +29,8 @@ export default function Card(){
                             <p>- {item.autor}</p>
                         </div>
                     </div>
-                    <div>
-                        <hr className={styles.linea} />
+                    <div className={styles.linea}>
+                        <hr/>
                     </div>
                 </div>
             ))}

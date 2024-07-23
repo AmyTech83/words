@@ -1,7 +1,9 @@
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-gap:40px
 }
+
 .logo{
     grid-column:4/10;
     text-align: center;
