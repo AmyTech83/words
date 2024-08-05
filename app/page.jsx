@@ -17,16 +17,17 @@ function debounce(func, wait) {
 export default function Page() {
   const [scrolling, setScrolling] = useState(false);
   
-  // Ajusta la cantidad de píxeles para el desplazamiento con el teclado
-  const scrollAmountVH = 100; // Cambia este valor para ajustar el desplazamiento con el teclado
-  const scrollAmount = (window.innerHeight * scrollAmountVH) / 100;
-  // Ajusta la cantidad de píxeles para el desplazamiento con la rueda del mouse
-  const scrollAmountWheelVH = 100; // Cambia este valor para ajustar el desplazamiento con la rueda del mouse
-  const scrollAmountWheel = (window.innerHeight * scrollAmountWheelVH) / 100; // Conversión de vh a píxeles
-  // Ajusta la cantidad de vh para el desplazamiento táctil
-  const scrollAmountTouchVH = 100; // Valor en vh
-  const scrollAmountTouch = (window.innerHeight * scrollAmountTouchVH) / 100; // Conversión de vh a píxeles
+  
   useEffect(() => {
+      // Ajusta la cantidad de píxeles para el desplazamiento con el teclado
+    const scrollAmountVH = 100; // Cambia este valor para ajustar el desplazamiento con el teclado
+    const scrollAmount = (window.innerHeight * scrollAmountVH) / 100;
+    // Ajusta la cantidad de píxeles para el desplazamiento con la rueda del mouse
+    const scrollAmountWheelVH = 100; // Cambia este valor para ajustar el desplazamiento con la rueda del mouse
+    const scrollAmountWheel = (window.innerHeight * scrollAmountWheelVH) / 100; // Conversión de vh a píxeles
+    // Ajusta la cantidad de vh para el desplazamiento táctil
+    const scrollAmountTouchVH = 100; // Valor en vh
+    const scrollAmountTouch = (window.innerHeight * scrollAmountTouchVH) / 100; // Conversión de vh a píxeles
     function handleScroll(event) {
       if (!scrolling) {
         setScrolling(true);
@@ -70,7 +71,7 @@ export default function Page() {
       // Guarda la posición inicial del toque
       this.touchStartY = event.touches[0].clientY;
     }
-
+   
     function handleTouchMove(event) {
       // Calcula la diferencia de posición del toque
       const touchEndY = event.touches[0].clientY;
