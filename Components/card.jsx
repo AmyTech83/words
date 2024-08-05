@@ -4,6 +4,7 @@ import styles from "./card.module.css"
 import Fecha from "../Components/fecha"
 import Button from "../Components/Buttons/Button";
 import data from "../public/lib/data.json"
+import Image from "next/image";
 export default function Card(){
     // Se inicializa la fecha
     const currentDate = new Date().toISOString();
@@ -11,10 +12,19 @@ export default function Card(){
     const dataCards = JSON.parse(datos);
     
     return (
-        <>
-            {dataCards.map((item) => (
-                <div className={styles.containerPublicaciones} key={item.id}>
-                    <div className={styles.card}>
+        <> 
+            <div className={styles.containerImage} id="logo">
+                <Image 
+                src="/Images/W.png" 
+                alt="logo" 
+                className={styles.logo} 
+                width={50}
+                height={50}
+                />
+            </div>
+                {dataCards.map((item) => (
+                <div className={styles.containerPublicaciones}>
+                    <div className={styles.card} key={item.id}>
                         <div className={styles.headerCard}>
                             {/* Aquí se muestra la fecha */}
                             <p className={styles.fecha}><Fecha dateString={currentDate} /></p>
@@ -29,11 +39,9 @@ export default function Card(){
                             <p>- {item.autor}</p>
                         </div>
                     </div>
-                    <div className={styles.linea}>
-                        <hr/>
-                    </div>
+                    
                 </div>
-            ))}
+                    ))}
         </>
     );
 }
