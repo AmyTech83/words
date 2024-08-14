@@ -14,13 +14,15 @@
     "@mui/icons-material": "^5.16.0",
     "@mui/material": "^5.16.0",
     "date-fns": "^3.6.0",
+    "lodash.debounce": "^4.0.8",
     "next": "^14.2.5",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "viewport-units-buggyfill": "^0.6.2"
   },
   "devDependencies": {
-    "postcss": "^8",
     "next": "^14.2.5",
+    "postcss": "^8",
     "tailwindcss": "^3.4.1"
   }
 }

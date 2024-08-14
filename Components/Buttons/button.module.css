@@ -36,6 +36,7 @@
 }
 .buttonContainer > p{
     font-weight:400;
+    color:rgb(38, 38, 38);
 }
 @media (max-width: 860px){
     
